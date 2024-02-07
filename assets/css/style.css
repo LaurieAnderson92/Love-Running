@@ -1,19 +1,19 @@
-/* Google fonts import */
+/* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Asteric wildcard selector */
+/* Wildcard Selector */
 *{
     padding: 0;
     margin: 0;
     box-sizing:border-box;
 }
 
-/* General styles */
+/* General Styles */
 body{
 min-height: 100vh;
 display: flex;
 flex-direction: column;
-/* generic project styles */
+/* Generic Project styles */
 color: #3a3a3a;
 font-family: 'Lato', sans-serif
 }
@@ -25,7 +25,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
  header a{
     text-decoration: none;
@@ -60,14 +63,27 @@ nav{
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     display: none;
+    top:100%
 
 }
+/* Nav toggle */
+#nav-toggle:checked~nav{
+    display: block;
+}
 
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+
+}
 
 /* Main content */
 main{
     background-color: lightblue;
-    /* Make main element take up any surplus space to push futter down */
+/* Make main element take up any surplus space to push further down */
     flex: 1 0 auto;
 }
 
