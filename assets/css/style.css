@@ -114,4 +114,22 @@ footer {
         display:none
     }
 
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem
+    }
+
+    main{
+        /* Push header down to accommodate for larger tablet header */
+        margin-top: 78px;
+
+    }
+}
+/* Media responsiveness on laptops or larger ( >=992px) */
+@media screen and (min-width:992px) {
+    /* Laptop and PC anchor styles */
+    #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    }
 }
