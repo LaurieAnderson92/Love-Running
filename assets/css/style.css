@@ -89,9 +89,20 @@ main{
 }
 
 /* Footer */
-footer {
-    background-color: orange
+#social-networks{
+    text-align: center;
+    padding: 2rem;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i{
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
+}
+
 
 /* Media responsiveness on tablets or larger ( >=768px) */
 @media screen and (min-width: 768px){
