@@ -92,3 +92,26 @@ main{
 footer {
     background-color: orange
 }
+
+/* Media responsiveness on tablets or larger ( >=768px) */
+@media screen and (min-width: 768px){
+    /* Tablet Header */
+    nav{ 
+        display:block;
+        width:fit-content;
+        padding-right: 1rem;
+        position: relative;
+        box-shadow: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display:none
+    }
+
+}
