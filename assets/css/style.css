@@ -13,10 +13,17 @@ body{
 min-height: 100vh;
 display: flex;
 flex-direction: column;
+}
 
+hr {
+border-top: 1px solid #3a3a3a;
+margin: 5px 0;
+    }
 
 
 /* Generic Project styles */
+
+main{
 color: #3a3a3a;
 font-family: 'Lato', sans-serif
 }
@@ -27,6 +34,7 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+
 
 /* Header */
 header {
@@ -113,6 +121,28 @@ main{
 
 }
 
+/* Reasons to love us */
+
+#reasons{
+    width: 90%;
+    margin:20px auto
+}
+
+#reasons h2{
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#reasons p {
+    padding: 0 20px;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 /* Footer */
 #social-networks{
     text-align: center;
