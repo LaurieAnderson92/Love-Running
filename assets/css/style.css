@@ -158,6 +158,11 @@ main{
     justify-content: center;
 }
 
+/* meetup */
+#meetup{
+    background: url(/../images/dublin-city.webp) no-repeat center center/cover;
+}
+
 /* Footer */
 #social-networks{
     text-align: center;
