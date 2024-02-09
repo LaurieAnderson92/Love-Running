@@ -209,7 +209,13 @@ color: #FFFFFF;
     color: #3a3a3a
 }
 
-
+/* Media responsiveness on tablets or larger ( >=768px) */
+@media screen and (min-width: 567px){
+    #photos{
+            column-count: 2;
+            column-gap: 0;
+    }
+}
 /* Media responsiveness on tablets or larger ( >=768px) */
 @media screen and (min-width: 768px){
     /* Tablet Header */
@@ -263,12 +269,20 @@ color: #FFFFFF;
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos{
+        column-count: 3;
+    }
 }
 /* Media responsiveness on laptops or larger ( >=992px) */
 @media screen and (min-width:992px) {
     /* Laptop and PC anchor styles */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    #photos {
+        column-count: 4;
     }
 }
 
